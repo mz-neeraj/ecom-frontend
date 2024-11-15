@@ -1,0 +1,27 @@
+/* App Container */
+.app-container {
+    display: flex;
+    min-height: 100vh; /* Ensure the container takes up full height */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .category-list {
+      width: 100%;
+      border-right: none;
+      margin-bottom: 20px;
+    }
+  
+    .product-list {
+      width: 100%;
+    }
+  
+    .product-list-items {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .product-item {
+      width: 100%;
+    }
+  }

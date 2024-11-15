@@ -1,0 +1,21 @@
+/* Category List Styles */
+.category-list {
+    width: 20%;
+    padding: 10px;
+    border-right: 1px solid #ccc;
+  }
+  
+  .category-list ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .category-list li {
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .category-list li:hover {
+    background-color: #f4f4f4;
+  }
+  
