@@ -1,0 +1,95 @@
+/* Register CSS */
+
+.register-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 100%;
+    min-width: 400px;
+    box-sizing: border-box;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  /* Form Input Styles */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  form label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  form input {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  form input:focus {
+    border-color: #0056b3;
+  }
+  
+  /* Button Styles */
+  button {
+    padding: 12px;
+    background-color: #0056b3;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #004494;
+  }
+  
+  /* Error Message */
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* Links */
+  p {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .register-container a {
+    color: #0056b3;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 480px) {
+    .register-container {
+      padding: 30px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  }
+  

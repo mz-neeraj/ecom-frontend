@@ -13,6 +13,7 @@
 }
 .NavBar ul li a{
     text-decoration: none;
+    color: white;
     
 }
 .NavBar ul li a:active,:visited{

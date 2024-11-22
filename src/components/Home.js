@@ -6,7 +6,7 @@ import './Home.css';  // Importing App-specific global styles
 
 function Home() {
   const [categories, setCategories] = useState([]);
-  const [selectedCategory, setSelectedCategory] = useState('Electronics');
+  const [selectedCategory, setSelectedCategory] = useState(null);
   const [products, setProducts] = useState([]);
 
   // Fetch categories
